@@ -1,5 +1,5 @@
 ---
-title: 'When to Use Static Generation v.s. Server-side Rendering'
+title: 'タイトルを変更しました'
 date: '2020-01-02'
 ---
 
