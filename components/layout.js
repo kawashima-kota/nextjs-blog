@@ -9,6 +9,7 @@ export const siteTitle = 'Kota Blog'
 
 export default function Layout({ children, home }) {
   return (
+    <>
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
@@ -68,6 +69,18 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
-    </div>
+      </div>
+      <footer className={styles.footerArea}>
+        <div className={styles.inner}>
+          <p className={styles.txtCenter}>お気軽にお問い合わせください</p>
+          <address className={styles.textEmail}>
+            Email: kouta924jp@gmail.com
+          </address>
+        </div>
+        <small className={styles.footAreaCopy}>&copy; Kawashima Kota</small>
+      </footer>
+    </>
   )
 }
+
+

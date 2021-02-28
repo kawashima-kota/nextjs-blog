@@ -1,6 +1,5 @@
 .container {
-  max-width: 36rem;
-  padding: 0 1rem;
+  max-width: 50rem;
   margin: 3rem auto 6rem;
 }
 
@@ -12,4 +11,18 @@
 
 .backToHome {
   margin: 3rem 0 0;
+}
+
+.footerArea{
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  background-color: #596680;
+}
+
+.textEmail{
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  margin-bottom: 10px;
 }
